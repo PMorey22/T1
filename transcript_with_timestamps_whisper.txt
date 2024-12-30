@@ -1,0 +1,27 @@
+C:\Users\purva\AppData\Roaming\Python\Python312\site-packages\whisper\__init__.py:150: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(fp, map_location=device)
+C:\Users\purva\AppData\Roaming\Python\Python312\site-packages\whisper\transcribe.py:132: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+Detecting language using up to the first 30 seconds. Use `--language` to specify the language
+Detected language: English
+[00:00.000 --> 00:23.440]  We were both young when I first saw you, I closed my eyes and the flashback
+[00:23.440 --> 00:32.880]  starts I'm standing there on a balcony and sun are air
+[00:32.880 --> 00:44.160]  See the lights, see the party, the bargas see you make your way through the crowd and say hello
+[00:44.160 --> 00:54.960]  to the fire know that you were throwing pebbles and my daddy said stay away from
+[00:54.960 --> 01:03.280]  Julia and I was crying on the staircase begging you please don't go
+[01:03.280 --> 01:17.280]  and I fear you'll take me somewhere we can be alone I'll be waiting all there's nothing to do is run you'll be the prince and I'll be the princess
+[01:17.280 --> 01:21.680]  it's a love story baby just say yes
+[01:21.680 --> 01:34.400]  so I sneak out to the garden to see you we keep quiet because we're dead if they knew so close your eyes
+[01:34.400 --> 01:48.480]  I'll skip this town for a little while and I'll go because you were on me oh I was a scarlet better and my daddy said stay away from Julia
+[01:48.480 --> 01:55.680]  but you were everything to me I was begging you please don't go
+[01:55.680 --> 02:09.520]  and I said don't be afraid you'll take me somewhere we can be alone I'll be waiting all there's nothing to do is run you'll be the prince and I'll be the princess
+[02:09.520 --> 02:13.600]  it's a love story baby just say yes
+[02:13.600 --> 02:21.600]  for me oh say me they're trying to tell me how to feel this time is difficult but it's a rigging
+[02:21.600 --> 02:30.240]  don't be afraid we'll make it out of this mess it's a love story baby just say yes
+[02:39.520 --> 02:52.560]  I got a waiting wonder and if you were ever coming around
+[02:52.560 --> 03:06.080]  my faith in you was fading when I met you on the asker to tell and I said when you're saved me I've been feeling so alone
+[03:06.080 --> 03:13.680]  I keep waiting for you but you never come as this in my head I don't know what to think
+[03:13.680 --> 03:20.000]  he knelt to the ground and pull the ring and said marry me Julia
+[03:20.000 --> 03:30.400]  it's another hot to be alone I love you and that's all I really know I'm talk to your dad go pick out a white dress
+[03:30.400 --> 03:44.480]  it's a love story baby just say this
+[03:46.000 --> 03:57.760]  you'll be were young when I first saw you
